@@ -1,0 +1,93 @@
+
+/* css for body  */
+body{
+    background-color: rgb(29, 28, 28);
+}
+
+/* header  */
+header{
+    height: 50px;
+    background-color: rgba(63, 63, 63, 0.808);
+}
+
+/* logo of the website */
+#logo{
+    font-size: 2.5rem;
+    margin-left: 10%;
+    color: white;
+    font-family:monospace;
+}
+/*  this is the section that displays the left time for alarm  */
+#time_left{
+    height: 40vh;
+    line-height: 40vh;
+    font-size: 15vmax;
+    text-align: center;
+    color: aliceblue;
+}
+/* real time clock  */
+#clock{
+    border: 2px solid red;
+    line-height: 20vh;
+    color: rgb(97, 98, 99);
+    height: 20vh;
+    font-size: 8vmax;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+/* this section is used for setting up alarm   */
+#set_alarm{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+/* input groups for setting up hour , min, and AM/PM  */
+.input-group{
+    padding: 0 1%;
+    width: 8%;
+    min-width: 100px;
+}
+
+/* button for setting up alarm  */
+#set_btn {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+#set_btn button{
+    max-height: 40px;
+    width: 100%;
+    margin-top: 1%;
+    max-width: 300px;
+}
+.custom-select{
+    /* height: 30vh; */
+}
+
+#alarm_list_section{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+#alarm_list{
+    width: 100%;
+    max-width: 600px;
+    /* border: 2px solid white; */
+}
+.alarm_list_items{
+    border-radius: 10px;
+    background-color: rgba(125, 123, 123, 0.278);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+}
+.alarm_time{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#delete_timer_btn{
+    margin-left: auto;
+    margin-right: 10px;
+}
